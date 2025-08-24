@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>- One 8 Gravity - Interior Designer - Building Works</title>
+  <link rel="stylesheet" href="css\style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">ONE 8 GRAVITY</div>
+    <p>Designing Elegant Spaces | Building Quality Homes & Offices</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="aboutus.html">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#video">Video</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p style="text-align:center;">We are a creative interior design and construction firm specializing in residential and office projects. 
+       Our team blends modern aesthetics with functional design, ensuring spaces are both beautiful and practical.</p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="card">
+        <h3>Residential Interiors</h3>
+        <p>Elegant and modern home designs tailored to your lifestyle.</p>
+      </div>
+      <div class="card">
+        <h3>Office Interiors</h3>
+        <p>Productive, stylish office spaces for businesses of all sizes.</p>
+      </div>
+      <div class="card">
+        <h3>Construction Works</h3>
+        <p>From foundation to finish, we build with quality and care.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <h2>Portfolio</h2>
+    <div class="portfolio">
+      <img src="images/21.jpg" alt="Project 1">
+      <img src="images/22.jpg" alt="Project 2">
+      <img src="images/23.jpg" alt="Project 3">
+      <a href="https://volzero.com/articles/view/timeless-indian-haven-by-one-8-gravity-design-cell">Visit Volzero.com</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="submitForm(event)">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <section id="gallery" class="gallery">
+    <div class="gallery-container">
+      <h2>Project Gallery</h2>
+      <div class="gallery-grid">
+        <div><img src="images/1.jpg" alt="Interior Design 1"></div>
+        <div><img src="images/2.jpg" alt="Interior Design 2"></div>
+        <div><img src="images/3.jpg" alt="Interior Design 3"></div>
+        <div><img src="images/4.jpg" alt="Interior Design 4"></div>
+        <div><img src="images/5.jpg" alt="Interior Design 5"></div>
+        <div><img src="images/6.jpg" alt="Interior Design 6"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video" class="video-section">
+    <h2>Our Work in Action</h2>
+    <video width="100%" controls autoplay muted loop>
+      <source src="images/Krishnakunj.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 One 8 Gravity. All rights reserved.</p>
+    <p>📞 Phone: +91 7697407373, 7440890345</p>
+    <p>✉️ Email: one8gravity@gmail.com</p>
+    <p>🏢 Office: 104, Capital Tower, Sapna Sangita Road, Indore 452001</p>
+  </footer>
+
+  <script>
+    function submitForm(e){
+      e.preventDefault();
+      alert("Thank you! Your form has been submitted.");
+    }
+  </script>
+</body>
+</html>
